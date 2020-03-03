@@ -48,8 +48,10 @@ therefore, something like this should be launched as avrdude parameter:	-v -v -v
 * -U lfuse:w:0x62:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m : fuses settings. these are the default. 
 
 
+## method 2: AVR toolchain
+https://www.instructables.com/id/Getting-Started-With-WinAVR/
 
-
+more on this later.
 
 ## method 3 Arduino IDE  
 note: I have to verify this again.  
@@ -63,5 +65,6 @@ this was the least instructive way because tutorials make you miss all the juicy
 - get an example, like a blink. define pins according to atmega, or leave default (pin 5 should blink)
 - upload with "sketch -> upload using programmer" OR "upload" after applying a 10microfahrad capacitor between RESET and GND of atmega
 
-
+## method 4 (linux):
+...
 
