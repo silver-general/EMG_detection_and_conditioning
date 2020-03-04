@@ -47,6 +47,16 @@ therefore, something like this should be launched as avrdude parameter:	-v -v -v
 * -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" : path to avrdude.config. note the quotes, because "Program File" has a space in the name. windows is lame.
 * -U lfuse:w:0x62:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m : fuses settings. these are the default. 
 
+### Atmel Studio Theory  
+read the documentation.  
+this is the way atmel studio builds the project and in the solution explorer window some files appear.
+	1. EEP file: EEPROM content
+	2. ELF file: everything written on the device, including fuses
+	3. HEX: flash content
+	4. LSS: disassembled ELF file. this is the assembly file!
+	5. MAP file: Linker info, what it did and decided
+	6. SREC file: HEX but in motorola format(I will learn more?)
+
 
 ## method 2: AVR toolchain
 https://www.instructables.com/id/Getting-Started-With-WinAVR/
