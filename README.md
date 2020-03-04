@@ -5,6 +5,8 @@ This is thought as a tutorial for people starting from scratch, as I too need to
 
 RULE #1: when in doubt, ask for help. join a makerspace, ask professors, students, stalk people on social media. the internet is full of good people that would help you and join you if you have a nice project. 
 
+GOLD: https://www.microchip.com/wwwproducts/en/ATtiny85 applications directly by Microchip
+
 Acquiring biosignals require knowledge on many different topics, and if you dedicate your time to different subject you often end up knowing little of everything, that is both good and bad. That's why I'm putting everything public and hoping to get suggestions.
 
 These are topics I personally found useful as a student at BSc in Biomedical Engineering. I recommend having knowledge in:
